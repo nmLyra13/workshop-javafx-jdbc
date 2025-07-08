@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox fx:id="menuItemAbout" onKeyPressed="#onMenuItemAboutAction" prefHeight="369.0" prefWidth="534.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainViewController">
+<VBox onKeyPressed="#onMenuItemAboutAction" prefHeight="369.0" prefWidth="534.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainViewController">
    <children>
       <Label text="About">
          <font>
